@@ -1,0 +1,13 @@
+﻿  lab1.1.cpp
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(54,49): error C2065: M_PI: необъявленный идентификатор
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(57,21): error C2065: M_PI_2: необъявленный идентификатор
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(61,61): error C2065: M_PI: необъявленный идентификатор
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(62,61): error C2065: M_PI: необъявленный идентификатор
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(106,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(119,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(159,10): error C2039: "sort": не является членом "std".
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(29,1):
+       см. объявление "std"
+  
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(159,10): error C3861: sort: идентификатор не найден
+C:\Users\Али\Desktop\Учеба\4 Семесрт\dsa\Lab1\lab1.1\lab1.1\lab1.1.cpp(225,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных

@@ -1,0 +1,352 @@
+﻿  1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(64,89): error C2027: использование неопределенного типа "std::ios_base"
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(64,89): error C2061: синтаксическая ошибка: идентификатор "openmode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(65,92): error C2027: использование неопределенного типа "std::ios_base"
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(65,92): error C2061: синтаксическая ошибка: идентификатор "openmode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(165,19): error C2061: синтаксическая ошибка: идентификатор "codecvt"
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(165,19):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(162,7):
+          при компиляции шаблона класса "std::basic_filebuf"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(165,68): error C2059: синтаксическая ошибка: >
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(280,58): error C2039: "openmode": не является членом "std::ios_base".
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(280,58): error C2061: синтаксическая ошибка: идентификатор "openmode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(296,25): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(296,37): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(302,58): error C2039: "open_mode": не является членом "std::ios_base".
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(302,58): error C2061: синтаксическая ошибка: идентификатор "open_mode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(302,20): error C2535: std::basic_filebuf<_Elem,_Traits> *std::basic_filebuf<_Elem,_Traits>::open(const char *): функция-член уже определена или объявлена
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(280,20):
+       см. объявление "std::basic_filebuf<_Elem,_Traits>::open"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(307,61): error C2039: "openmode": не является членом "std::ios_base".
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(307,61): error C2061: синтаксическая ошибка: идентификатор "openmode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(323,25): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(323,38): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(323,20): error C2535: std::basic_filebuf<_Elem,_Traits> *std::basic_filebuf<_Elem,_Traits>::open(const int): функция-член уже определена или объявлена
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(296,20):
+       см. объявление "std::basic_filebuf<_Elem,_Traits>::open"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(331,56): error C2039: "openmode": не является членом "std::ios_base".
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(331,56): error C2061: синтаксическая ошибка: идентификатор "openmode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(347,61): error C2039: "open_mode": не является членом "std::ios_base".
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(347,61): error C2061: синтаксическая ошибка: идентификатор "open_mode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(347,20): error C2535: std::basic_filebuf<_Elem,_Traits> *std::basic_filebuf<_Elem,_Traits>::open(const wchar_t *): функция-член уже определена или объявлена
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(307,20):
+       см. объявление "std::basic_filebuf<_Elem,_Traits>::open"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(613,66): error C2039: "seekdir": не является членом "std::ios_base".
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(613,66): error C2061: синтаксическая ошибка: идентификатор "seekdir"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(633,66): error C2039: "openmode": не является членом "std::ios_base".
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\iosfwd(165,32):
+       см. объявление "std::ios_base"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(633,66): error C2061: синтаксическая ошибка: идентификатор "openmode"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(742,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(742,29): error C2143: синтаксическая ошибка: отсутствие "," перед "&"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(752,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(752,15): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(752,22): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(212,19): error C2187: синтаксическая ошибка: непредвиденный здесь элемент "_Cvt"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(212,25): error C2065: _Pcvt_sav: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(212,55): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(237,13): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(253,33): error C2065: _Pcvt_sav: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(286,47): error C3861: _Mode: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(286,54): error C3861: _Prot: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(286,47): error C2065: _Mode: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(286,54): error C2065: _Prot: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(298,21): error C3861: _Str: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(298,35): error C3861: _Mode: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(298,42): error C3861: _Prot: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(298,21): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(298,35): error C2065: _Mode: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(298,42): error C2065: _Prot: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(303,64): error C3861: _Mode: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(303,64): error C2065: _Mode: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(313,47): error C3861: _Mode: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(313,54): error C3861: _Prot: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(313,47): error C2065: _Mode: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(313,54): error C2065: _Prot: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(325,21): error C3861: _Str: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(325,35): error C3861: _Mode: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(325,42): error C3861: _Prot: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(325,21): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(325,35): error C2065: _Mode: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(325,42): error C2065: _Prot: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(333,36): error C3861: _Mode: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(330,20):
+      Сообщение диагностики возникло в созданной компилятором функции "std::basic_filebuf<_Elem,_Traits> *std::basic_filebuf<_Elem,_Traits>::open(const _Identity<_Path_ish>::type &)"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(333,43): error C3861: _Prot: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(330,20):
+      Сообщение диагностики возникло в созданной компилятором функции "std::basic_filebuf<_Elem,_Traits> *std::basic_filebuf<_Elem,_Traits>::open(const _Identity<_Path_ish>::type &)"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(333,36): error C2065: _Mode: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(330,20):
+      Сообщение диагностики возникло в созданной компилятором функции "std::basic_filebuf<_Elem,_Traits> *std::basic_filebuf<_Elem,_Traits>::open(const _Identity<_Path_ish>::type &)"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(333,43): error C2065: _Prot: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(330,20):
+      Сообщение диагностики возникло в созданной компилятором функции "std::basic_filebuf<_Elem,_Traits> *std::basic_filebuf<_Elem,_Traits>::open(const _Identity<_Path_ish>::type &)"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(349,64): error C3861: _Mode: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(349,64): error C2065: _Mode: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(407,14): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(407,14): error C3861: _Pcvt: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(419,17): error C3861: _Pcvt: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(420,14): error C3861: codecvt_base: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(421,14): error C3861: codecvt_base: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(436,14): error C3861: codecvt_base: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(419,17): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(420,14): error C2065: codecvt_base: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(421,14): error C2065: codecvt_base: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(436,14): error C2065: codecvt_base: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(455,21): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(455,21): error C3861: _Pcvt: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(488,14): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(494,9): error C2065: string: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(494,16): error C3878: синтаксическая ошибка: непредвиденный токен "_Str" после "expression"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(494,16): message : пропущено восстановление ошибки: "идентификатор"
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(504,13): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(510,21): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(510,39): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(510,52): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(510,66): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(511,18): error C2065: codecvt_base: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(512,18): error C2065: codecvt_base: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(514,35): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(514,49): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(522,17): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(522,58): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(525,18): error C2065: codecvt_base: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(527,46): error C2065: _Str: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(542,17): error C3861: _Pcvt: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(542,17): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(586,17): error C3861: _Pcvt: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(586,17): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(618,16): error C2065: _Way: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(618,16): error C3861: _Way: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(619,17): error C2065: _Pcvt: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(619,17): error C3861: _Pcvt: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(624,31): error C2065: _Way: необъявленный идентификатор
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(624,31): error C3861: _Way: идентификатор не найден
+  (компиляция исходного файла "1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_filebuf.hpp(624,31): error C1003: число ошибок превышает 100; остановка компиляции
+  (компиляция исходного файла "1.cpp")
+  

@@ -1,0 +1,5 @@
+﻿  CryptoApp.cpp
+  Source.cpp
+C:\Users\Али\Desktop\Учеба\ТИМП\4\CryptoApp\Source.cpp(30,38): warning C4101: e: неиспользованная локальная переменная
+  Создание кода...
+  CryptoApp.vcxproj -> C:\Users\Али\Desktop\Учеба\ТИМП\4\CryptoApp\x64\Debug\CryptoApp.exe

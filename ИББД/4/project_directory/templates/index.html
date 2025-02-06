@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Добро пожаловать на страницу управления учебным центром</h1>
+<p>Здесь вы можете:</p>
+<ul>
+  <li><a href="{{ url_for('get_teachers') }}">Просмотреть список преподавателей</a></li>
+  <li><a href="{{ url_for('add_teacher') }}">Добавить нового преподавателя</a></li>
+  <li><a href="{{ url_for('get_courses') }}">Просмотреть курсы</a></li>
+  <li><a href="{{ url_for('add_course') }}">Добавить новый курс</a></li>
+</ul>
+
+{% endblock %}

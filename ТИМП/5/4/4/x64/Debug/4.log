@@ -1,0 +1,7 @@
+﻿  4.cpp
+  crypto.cpp
+  main1.cpp
+C:\Users\Али\Desktop\Учеба\ТИМП\4\4\main1.cpp(86,23): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+C:\Users\Али\Desktop\Учеба\ТИМП\4\4\main1.cpp(93,31): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+  Создание кода...
+  4.vcxproj -> C:\Users\Али\Desktop\Учеба\ТИМП\4\4\x64\Debug\4.exe

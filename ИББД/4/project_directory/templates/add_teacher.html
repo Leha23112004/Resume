@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="my-4">Добавить преподавателя</h2>
+
+{% if error %}
+<div class="alert alert-danger">{{ error }}</div>
+{% endif %}
+
+<form action="{{ url_for('add_teacher') }}" method="POST">
+    <div class="mb-3">
+        <label for="firstname" class="form-label">Имя</label>
+        <input type="text" class="form-control" id="firstname" name="firstname" required>
+    </div>
+    <div class="mb-3">
+        <label for="lastname" class="form-label">Фамилия</label>
+        <input type="text" class="form-control" id="lastname" name="lastname" required>
+    </div>
+    <div class="mb-3">
+        <label for="phone" class="form-label">Телефон</label>
+        <input type="text" class="form-control" id="phone" name="phone" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="specialization" class="form-label">Специализация</label>
+        <input type="text" class="form-control" id="specialization" name="specialization" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Добавить</button>
+</form>
+
+<a href="{{ url_for('get_teachers') }}" class="btn btn-secondary mt-3">Назад к списку преподавателей</a>
+{% endblock %}

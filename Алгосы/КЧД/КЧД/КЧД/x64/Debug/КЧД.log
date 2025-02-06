@@ -1,0 +1,3 @@
+﻿  КЧД.cpp
+C:\Users\Али\Desktop\КЧД\КЧД\КЧД\КЧД.cpp(60,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  КЧД.vcxproj -> C:\Users\Али\Desktop\КЧД\КЧД\x64\Debug\КЧД.exe

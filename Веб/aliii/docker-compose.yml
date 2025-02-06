@@ -1,0 +1,40 @@
+services:
+  db:
+    build: ./db
+    container_name: students-db
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=studentsdb
+    volumes:
+      - ./dump:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "user", "-d", "studentsdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: ./api
+    container_name: students-api
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=studentsdb
+      - POSTGRES_HOST=db
+      - POSTGRES_PORT=5432
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build: ./frontend
+    container_name: students-frontend
+    depends_on:
+      - api
+    ports:
+      - "80:80"

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Защищенная страница</title>
+    <style>
+        /* Запрет выделения текста */
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        /* Запрет перетаскивания изображений */
+        img {
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ</h1>
+    <p>Попробуйте ввести пароль для снятия защиты.</p>
+    <button onclick="allowAccess()">Ввести пароль</button>
+
+    <script>
+        // Зашифрованный пароль (SHA-256 от "qwerty123")
+        const encryptedPassword = 'daaad6e5604e8e17bd9f108d91e26afe6281dac8fda0091040a7a6d7bd9b43b5';
+
+        // Функция хеширования строки в SHA-256
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+            return hashHex;
+        }
+
+        // Отключение защиты по паролю
+        async function allowAccess() {
+            const inputPassword = prompt('Введите пароль для снятия защиты:');
+            if (!inputPassword) {
+                alert('Пароль не может быть пустым!');
+                return;
+            }
+
+            const hashedInput = await sha256(inputPassword);
+
+            if (hashedInput === encryptedPassword) {
+                alert('Ограничения сняты.');
+                // Разрешаем выделение текста
+                document.body.style.userSelect = 'auto';
+                document.body.style.webkitUserSelect = 'auto';
+                document.body.style.MozUserSelect = 'auto';
+
+                // Убираем обработчики событий
+                document.oncontextmenu = null;
+                document.onkeydown = null;
+                document.onselectstart = null;
+            } else {
+                alert('Неверный пароль!');
+            }
+        }
+
+        // Запрет контекстного меню (правый клик)
+        document.oncontextmenu = function() {
+            return false;
+        };
+
+        // Запрет клавиатурных сокращений (Ctrl+C, Ctrl+S и т.д.)
+        document.onkeydown = function(e) {
+            if (e.ctrlKey || e.keyCode === 123) {
+                return false;
+            }
+        };
+
+        // Запрет выделения через мышь
+        document.onselectstart = function() {
+            return false;
+        };
+    </script>
+</body>
+</html>
